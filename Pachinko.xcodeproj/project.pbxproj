@@ -29,6 +29,7 @@
 		65E68CE22AB819E600EA3F3A /* ballCyan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E68CD32AB819E600EA3F3A /* ballCyan@2x.png */; };
 		65E68CE32AB819E600EA3F3A /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65E68CD42AB819E600EA3F3A /* background@2x.jpg */; };
 		65E68CE42AB819E600EA3F3A /* ballGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E68CD52AB819E600EA3F3A /* ballGreen@2x.png */; };
+		65E68CEA2AB869D200EA3F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E68CE82AB869D200EA3F3A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		65E68CD32AB819E600EA3F3A /* ballCyan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballCyan@2x.png"; sourceTree = "<group>"; };
 		65E68CD42AB819E600EA3F3A /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
 		65E68CD52AB819E600EA3F3A /* ballGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballGreen@2x.png"; sourceTree = "<group>"; };
+		65E68CE82AB869D200EA3F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				65E68CC72AB819E600EA3F3A /* FireParticles.sks */,
+				65E68CE82AB869D200EA3F3A /* Assets.xcassets */,
 				65E68CC82AB819E600EA3F3A /* ballBlue@2x.png */,
 				65E68CC92AB819E600EA3F3A /* slotGlowBad@2x.png */,
 				65E68CCA2AB819E600EA3F3A /* ballYellow@2x.png */,
@@ -182,6 +185,7 @@
 				65E68CBB2AB8170000EA3F3A /* Main.storyboard in Resources */,
 				65E68CE12AB819E600EA3F3A /* ballRed@2x.png in Resources */,
 				65E68CDB2AB819E600EA3F3A /* ballPurple@2x.png in Resources */,
+				65E68CEA2AB869D200EA3F3A /* Assets.xcassets in Resources */,
 				65E68CDC2AB819E600EA3F3A /* slotBaseBad@2x.png in Resources */,
 				65E68CDA2AB819E600EA3F3A /* slotBaseGood@2x.png in Resources */,
 				65E68CB22AB816FF00EA3F3A /* GameScene.sks in Resources */,
