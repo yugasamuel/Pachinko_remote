@@ -71,7 +71,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     box.physicsBody?.isDynamic = false
                     addChild(box)
                 } else {
-                    let ball = SKSpriteNode(imageNamed: "ballRed")
+                    let randomBallColor = ["ballRed", "ballBlue", "ballGreen", "ballYellow", "ballPurple", "ballGrey", "ballCyan"].randomElement()!
+                    let ball = SKSpriteNode(imageNamed: randomBallColor)
                     ball.name = "ball"
                     ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
                     ball.physicsBody!.contactTestBitMask = ball.physicsBody!.collisionBitMask
